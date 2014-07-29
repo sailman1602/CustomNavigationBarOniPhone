@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3150C1516EDAFD40023D63B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3150C1416EDAFD40023D63B /* UIKit.framework */; };
+		A3150C1716EDAFD40023D63B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3150C1616EDAFD40023D63B /* Foundation.framework */; };
+		A3150C1916EDAFD40023D63B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3150C1816EDAFD40023D63B /* CoreGraphics.framework */; };
+		A3150C1F16EDAFD40023D63B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3150C1D16EDAFD40023D63B /* InfoPlist.strings */; };
+		A3150C2116EDAFD40023D63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3150C2016EDAFD40023D63B /* main.m */; };
+		A3150C2516EDAFD40023D63B /* DWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3150C2416EDAFD40023D63B /* DWAppDelegate.m */; };
+		A3150C2716EDAFD40023D63B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3150C2616EDAFD40023D63B /* Default.png */; };
+		A3150C2916EDAFD40023D63B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3150C2816EDAFD40023D63B /* Default@2x.png */; };
+		A3150C2B16EDAFD40023D63B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3150C2A16EDAFD40023D63B /* Default-568h@2x.png */; };
+		A3150C3516EDB0640023D63B /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3150C3316EDAFE10023D63B /* DWNavigationController.m */; };
+		A3150C3816EDB0A80023D63B /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A3150C3716EDB0A70023D63B /* UIViewAdditions.m */; };
+		A3150C3E16EDB2610023D63B /* DWBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3150C3C16EDB2610023D63B /* DWBlueViewController.m */; };
+		A3150C3F16EDB2610023D63B /* DWBlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3150C3D16EDB2610023D63B /* DWBlueViewController.xib */; };
+		A3150C4316EDB28A0023D63B /* DWGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3150C4116EDB2890023D63B /* DWGreenViewController.m */; };
+		A3150C4416EDB28A0023D63B /* DWGreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3150C4216EDB28A0023D63B /* DWGreenViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3150C1116EDAFD40023D63B /* DWNavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWNavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3150C1416EDAFD40023D63B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3150C1616EDAFD40023D63B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3150C1816EDAFD40023D63B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3150C1C16EDAFD40023D63B /* DWNavigationControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DWNavigationControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		A3150C1E16EDAFD40023D63B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3150C2016EDAFD40023D63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3150C2216EDAFD40023D63B /* DWNavigationControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DWNavigationControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A3150C2316EDAFD40023D63B /* DWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWAppDelegate.h; sourceTree = "<group>"; };
+		A3150C2416EDAFD40023D63B /* DWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWAppDelegate.m; sourceTree = "<group>"; };
+		A3150C2616EDAFD40023D63B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A3150C2816EDAFD40023D63B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A3150C2A16EDAFD40023D63B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A3150C3116EDAFE10023D63B /* DWNavgationStackViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWNavgationStackViewControllerProtocol.h; sourceTree = "<group>"; };
+		A3150C3216EDAFE10023D63B /* DWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
+		A3150C3316EDAFE10023D63B /* DWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
+		A3150C3616EDB0A70023D63B /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		A3150C3716EDB0A70023D63B /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		A3150C3916EDB0E20023D63B /* TTCorePreprocessorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTCorePreprocessorMacros.h; sourceTree = "<group>"; };
+		A3150C3B16EDB2610023D63B /* DWBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBlueViewController.h; sourceTree = "<group>"; };
+		A3150C3C16EDB2610023D63B /* DWBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBlueViewController.m; sourceTree = "<group>"; };
+		A3150C3D16EDB2610023D63B /* DWBlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWBlueViewController.xib; sourceTree = "<group>"; };
+		A3150C4016EDB2890023D63B /* DWGreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWGreenViewController.h; sourceTree = "<group>"; };
+		A3150C4116EDB2890023D63B /* DWGreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWGreenViewController.m; sourceTree = "<group>"; };
+		A3150C4216EDB28A0023D63B /* DWGreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWGreenViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3150C0E16EDAFD40023D63B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3150C1516EDAFD40023D63B /* UIKit.framework in Frameworks */,
+				A3150C1716EDAFD40023D63B /* Foundation.framework in Frameworks */,
+				A3150C1916EDAFD40023D63B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3150C0816EDAFD40023D63B = {
+			isa = PBXGroup;
+			children = (
+				A3150C1A16EDAFD40023D63B /* DWNavigationControllerDemo */,
+				A3150C1316EDAFD40023D63B /* Frameworks */,
+				A3150C1216EDAFD40023D63B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3150C1216EDAFD40023D63B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3150C1116EDAFD40023D63B /* DWNavigationControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3150C1316EDAFD40023D63B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3150C1416EDAFD40023D63B /* UIKit.framework */,
+				A3150C1616EDAFD40023D63B /* Foundation.framework */,
+				A3150C1816EDAFD40023D63B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3150C1A16EDAFD40023D63B /* DWNavigationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A3150C3416EDAFE70023D63B /* Lib */,
+				A3150C2316EDAFD40023D63B /* DWAppDelegate.h */,
+				A3150C2416EDAFD40023D63B /* DWAppDelegate.m */,
+				A3150C3B16EDB2610023D63B /* DWBlueViewController.h */,
+				A3150C3C16EDB2610023D63B /* DWBlueViewController.m */,
+				A3150C3D16EDB2610023D63B /* DWBlueViewController.xib */,
+				A3150C4016EDB2890023D63B /* DWGreenViewController.h */,
+				A3150C4116EDB2890023D63B /* DWGreenViewController.m */,
+				A3150C4216EDB28A0023D63B /* DWGreenViewController.xib */,
+				A3150C1B16EDAFD40023D63B /* Supporting Files */,
+			);
+			path = DWNavigationControllerDemo;
+			sourceTree = "<group>";
+		};
+		A3150C1B16EDAFD40023D63B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3150C1C16EDAFD40023D63B /* DWNavigationControllerDemo-Info.plist */,
+				A3150C1D16EDAFD40023D63B /* InfoPlist.strings */,
+				A3150C2016EDAFD40023D63B /* main.m */,
+				A3150C2216EDAFD40023D63B /* DWNavigationControllerDemo-Prefix.pch */,
+				A3150C2616EDAFD40023D63B /* Default.png */,
+				A3150C2816EDAFD40023D63B /* Default@2x.png */,
+				A3150C2A16EDAFD40023D63B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3150C3416EDAFE70023D63B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A3150C3A16EDB2250023D63B /* Dependences */,
+				A3150C3116EDAFE10023D63B /* DWNavgationStackViewControllerProtocol.h */,
+				A3150C3216EDAFE10023D63B /* DWNavigationController.h */,
+				A3150C3316EDAFE10023D63B /* DWNavigationController.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		A3150C3A16EDB2250023D63B /* Dependences */ = {
+			isa = PBXGroup;
+			children = (
+				A3150C3616EDB0A70023D63B /* UIViewAdditions.h */,
+				A3150C3716EDB0A70023D63B /* UIViewAdditions.m */,
+				A3150C3916EDB0E20023D63B /* TTCorePreprocessorMacros.h */,
+			);
+			name = Dependences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3150C1016EDAFD40023D63B /* DWNavigationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3150C2E16EDAFD40023D63B /* Build configuration list for PBXNativeTarget "DWNavigationControllerDemo" */;
+			buildPhases = (
+				A3150C0D16EDAFD40023D63B /* Sources */,
+				A3150C0E16EDAFD40023D63B /* Frameworks */,
+				A3150C0F16EDAFD40023D63B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWNavigationControllerDemo;
+			productName = DWNavigationControllerDemo;
+			productReference = A3150C1116EDAFD40023D63B /* DWNavigationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3150C0916EDAFD40023D63B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yue Song";
+			};
+			buildConfigurationList = A3150C0C16EDAFD40023D63B /* Build configuration list for PBXProject "DWNavigationControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3150C0816EDAFD40023D63B;
+			productRefGroup = A3150C1216EDAFD40023D63B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3150C1016EDAFD40023D63B /* DWNavigationControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3150C0F16EDAFD40023D63B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3150C1F16EDAFD40023D63B /* InfoPlist.strings in Resources */,
+				A3150C2716EDAFD40023D63B /* Default.png in Resources */,
+				A3150C2916EDAFD40023D63B /* Default@2x.png in Resources */,
+				A3150C2B16EDAFD40023D63B /* Default-568h@2x.png in Resources */,
+				A3150C3F16EDB2610023D63B /* DWBlueViewController.xib in Resources */,
+				A3150C4416EDB28A0023D63B /* DWGreenViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3150C0D16EDAFD40023D63B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3150C2116EDAFD40023D63B /* main.m in Sources */,
+				A3150C2516EDAFD40023D63B /* DWAppDelegate.m in Sources */,
+				A3150C3516EDB0640023D63B /* DWNavigationController.m in Sources */,
+				A3150C3816EDB0A80023D63B /* UIViewAdditions.m in Sources */,
+				A3150C3E16EDB2610023D63B /* DWBlueViewController.m in Sources */,
+				A3150C4316EDB28A0023D63B /* DWGreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3150C1D16EDAFD40023D63B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3150C1E16EDAFD40023D63B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3150C2C16EDAFD40023D63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3150C2D16EDAFD40023D63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3150C2F16EDAFD40023D63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DWNavigationControllerDemo/DWNavigationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "DWNavigationControllerDemo/DWNavigationControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3150C3016EDAFD40023D63B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DWNavigationControllerDemo/DWNavigationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "DWNavigationControllerDemo/DWNavigationControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3150C0C16EDAFD40023D63B /* Build configuration list for PBXProject "DWNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3150C2C16EDAFD40023D63B /* Debug */,
+				A3150C2D16EDAFD40023D63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3150C2E16EDAFD40023D63B /* Build configuration list for PBXNativeTarget "DWNavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3150C2F16EDAFD40023D63B /* Debug */,
+				A3150C3016EDAFD40023D63B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3150C0916EDAFD40023D63B /* Project object */;
+}
